@@ -98,8 +98,8 @@ class Game extends React.Component {
       status = 'Win ' + winner;
     } else {
       status = 'Next move: ' + (this.state.xIsNext ? 'X' : 'O');
-    }
-
+    } 
+    
     return (
       <div className="game">
         <div className="game-board">
